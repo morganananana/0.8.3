@@ -1,0 +1,88 @@
+:root {
+    --preto: #353232;
+    --branco: white;
+}
+
+header {
+    background-color: var(--preto);
+}
+
+.lupinha {
+    background-color: gray;
+    padding: 17px;
+    border-radius: 30px;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+button svg {
+    width: 25px;
+    height: 25px;
+}
+
+button {
+    border-radius: 28px;
+    padding: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var(--preto);
+    fill: var(--branco);
+    position: relative;
+    border: 2px solid rgb(26, 25, 25);
+}
+
+.lupinha,
+button:hover {
+    cursor: pointer;
+
+}
+
+span {
+    position: absolute;
+    right: -11px;
+    top: -7px;
+    border-radius: 20px;
+    background-color: red;
+    color: var(--branco);
+    padding: 5px;
+}
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding: 25px;
+}
+
+.container2 {
+    display: flex;
+    gap: 15px;
+
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.flecha {
+    position: absolute;
+    right: -1px;
+    bottom: -3px;
+    border-radius: 20px;
+    background-color: #808080;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
